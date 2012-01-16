@@ -343,12 +343,14 @@
 	
 	NSDate *myDate = [NSDate date];
 	NSString *date = [myDate descriptionWithCalendarFormat:@"%a %d %b %Y %H:%M:%S GMT" timeZone:nil locale:nil];
-	
+    NSURL *uri = [(NSURL *)CFHTTPMessageCopyRequestURL(request) autorelease];
+    NSLog(@"uri : %@",[uri absoluteURL]);
+    
     if ([method isEqual:@"GET"]) {
         NSURL *uri = [(NSURL *)CFHTTPMessageCopyRequestURL(request) autorelease];
 		NSLog(@"uri : %@",[uri absoluteURL]);
 
-		if ([[uri absoluteString] hasPrefix:@"/server-info"])
+		if ([[uri relativeString] hasPrefix:@"/server-info"])
 		{
 			
 			NSData *data = [[NSString stringWithFormat:@"<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n\
@@ -387,7 +389,7 @@
 			return;
 			
 		}
-		if ([[uri absoluteString] hasPrefix:@"/slideshow-features"])
+		if ([[uri relativeString] hasPrefix:@"/slideshow-features"])
 		{
 			
 			
@@ -438,7 +440,7 @@
 			
 		}
 		
-		else if ([[uri absoluteString] hasPrefix:@"/playback-info"])
+		else if ([[uri relativeString] hasPrefix:@"/playback-info"])
 		{
 		
 			if (delegate && [delegate respondsToSelector:@selector(airplayDidAskPosition)]) { 
@@ -489,7 +491,7 @@
 		NSURL *uri = [(NSURL *)CFHTTPMessageCopyRequestURL(request) autorelease];
 		NSLog(@"(POST) URI : %@",uri);
 		
-		if ([[uri absoluteString] hasPrefix:@"/reverse"])
+		if ([[uri relativeString] hasPrefix:@"/reverse"])
 		{
 			
 						
@@ -504,7 +506,7 @@
 			return;
 			
 		}
-		else if ([[uri absoluteString] hasPrefix:@"/play"])
+		else if ([[uri relativeString] hasPrefix:@"/play"])
 		{
 			
 			_playPosition = 0;
@@ -568,7 +570,7 @@
 			return;
 			
 		}
-		else if ([[uri absoluteString] hasPrefix:@"/stop"])
+		else if ([[uri relativeString] hasPrefix:@"/stop"])
 		{
 			
 			
@@ -586,10 +588,10 @@
 			
 		}
 		
-		else if ([[uri absoluteString] hasPrefix:@"/rate?value="])
+		else if ([[uri relativeString] hasPrefix:@"/rate?value="])
 		{
 			
-			if ([[uri absoluteString] hasPrefix:@"/rate?value=1"])	
+			if ([[uri relativeString] hasPrefix:@"/rate?value=1"])	
 			{
 				if (delegate && [delegate respondsToSelector:@selector(videoDidPauseOrPlay:)]) { 
 					[delegate videoDidPauseOrPlay:FALSE];
@@ -613,7 +615,7 @@
 			return;
 			
 		}
-		else if ([[uri absoluteString] hasPrefix:@"/scrub?position="])
+		else if ([[uri relativeString] hasPrefix:@"/scrub?position="])
 		{
 			
 			
@@ -645,7 +647,7 @@
 		NSURL *uri = [(NSURL *)CFHTTPMessageCopyRequestURL(request) autorelease];
 		NSLog(@"(PUT) URI : %@",uri);
 		
-		if ([[uri absoluteString] hasPrefix:@"/photo"])
+		if ([[uri relativeString] hasPrefix:@"/photo"])
 		{
 			
 			NSData *Body = [(NSData *)CFHTTPMessageCopyBody(request) autorelease];
@@ -655,7 +657,7 @@
 			}					
 			
 		}
-		else if ([[uri absoluteString] hasPrefix:@"/slideshows"])
+		else if ([[uri relativeString] hasPrefix:@"/slideshows"])
 		{
 			
 			NSData *Body = [(NSData *)CFHTTPMessageCopyBody(request) autorelease];
