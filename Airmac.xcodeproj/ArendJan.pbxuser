@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	089C165DFE840E0CC02AAC07 /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1188, 660}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 45}";
+		};
+	};
+	256AC3D80F4B6AC300CF3369 /* AirmacAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1188, 975}}";
+			sepNavSelRange = "{1105, 0}";
+			sepNavVisRange = "{460, 1638}";
+		};
+	};
+	256AC3D90F4B6AC300CF3369 /* AirmacAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1314, 6916}}";
+			sepNavSelRange = "{4935, 5}";
+			sepNavVisRange = "{4745, 1276}";
+		};
+	};
+	256AC3F00F4B6AF500CF3369 /* Airmac_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {720, 180}}";
+			sepNavSelRange = "{78, 0}";
+			sepNavVisRange = "{0, 143}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = FEBE49931376C5AE005081C0 /* Airplayer2 */;
+		activeTarget = 8D1107260486CEB800E47090 /* Airmac */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* Airmac */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = FEBE499E1376C5BF005081C0 /* Code sense */;
+		executables = (
+			FEBE49931376C5AE005081C0 /* Airplayer2 */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1010,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					970,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 338050767;
+			PBXWorkspaceStateSaveDate = 338050767;
+		};
+		perUserProjectItems = {
+			FE07D6C01383116400A31318 /* PBXTextBookmark */ = FE07D6C01383116400A31318 /* PBXTextBookmark */;
+			FE07D6F713831D9C00A31318 /* PBXTextBookmark */ = FE07D6F713831D9C00A31318 /* PBXTextBookmark */;
+			FE07D71613831EEA00A31318 /* PBXTextBookmark */ = FE07D71613831EEA00A31318 /* PBXTextBookmark */;
+			FE19E3931393F13300B36AA4 /* PBXTextBookmark */ = FE19E3931393F13300B36AA4 /* PBXTextBookmark */;
+			FE1AB17E137DCCF00098A2C0 /* PBXTextBookmark */ = FE1AB17E137DCCF00098A2C0 /* PBXTextBookmark */;
+			FE3E6802137B0FA000E72999 /* PBXBookmark */ = FE3E6802137B0FA000E72999 /* PBXBookmark */;
+			FE3E6803137B0FA000E72999 /* PBXBookmark */ = FE3E6803137B0FA000E72999 /* PBXBookmark */;
+			FE4780F6137F0DFE00D34DC7 /* PBXBookmark */ = FE4780F6137F0DFE00D34DC7 /* PBXBookmark */;
+			FE478131137F14E700D34DC7 /* PBXBookmark */ = FE478131137F14E700D34DC7 /* PBXBookmark */;
+			FE61108F14263ED70098393A /* PBXBookmark */ = FE61108F14263ED70098393A /* PBXBookmark */;
+			FE6110A8142640040098393A /* PBXTextBookmark */ = FE6110A8142640040098393A /* PBXTextBookmark */;
+			FE6110C2142641640098393A /* PBXTextBookmark */ = FE6110C2142641640098393A /* PBXTextBookmark */;
+			FE6110C3142641640098393A /* PBXTextBookmark */ = FE6110C3142641640098393A /* PBXTextBookmark */;
+			FE6110C4142641640098393A /* PlistBookmark */ = FE6110C4142641640098393A /* PlistBookmark */;
+			FE6110C5142641640098393A /* PlistBookmark */ = FE6110C5142641640098393A /* PlistBookmark */;
+			FE9B43E713785341000349E2 /* PBXBookmark */ = FE9B43E713785341000349E2 /* PBXBookmark */;
+			FE9B43E813785341000349E2 /* PBXBookmark */ = FE9B43E813785341000349E2 /* PBXBookmark */;
+			FEC82B4913786FBA0068E945 /* PBXTextBookmark */ = FEC82B4913786FBA0068E945 /* PBXTextBookmark */;
+		};
+		sourceControlManager = FEBE499D1376C5BF005081C0 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1188, 443}}";
+			sepNavSelRange = "{124, 0}";
+			sepNavVisRange = "{0, 246}";
+		};
+	};
+	8D1107260486CEB800E47090 /* Airmac */ = {
+		activeExec = 0;
+		executables = (
+			FEBE49931376C5AE005081C0 /* Airplayer2 */,
+		);
+	};
+	8D1107310486CEB800E47090 /* Airmac-Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1188, 483}}";
+			sepNavSelRange = "{354, 0}";
+			sepNavVisRange = "{0, 1059}";
+			sepNavWindowFrame = "{{15, 82}, {1665, 946}}";
+		};
+	};
+	FE07D6C01383116400A31318 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FE70A4C71379C6330045737E /* TCPServer.h */;
+		name = "TCPServer.h: 52";
+		rLen = 165;
+		rLoc = 2618;
+		rType = 0;
+		vrLen = 1315;
+		vrLoc = 2577;
+	};
+	FE07D6F713831D9C00A31318 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FE70A4C81379C6330045737E /* TCPServer.m */;
+		name = "TCPServer.m: 235";
+		rLen = 34;
+		rLoc = 9320;
+		rType = 0;
+		vrLen = 1990;
+		vrLoc = 8088;
+	};
+	FE07D71613831EEA00A31318 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FE70A4C51379C6330045737E /* HTTPServer.h */;
+		name = "HTTPServer.h: 101";
+		rLen = 11;
+		rLoc = 3860;
+		rType = 0;
+		vrLen = 1425;
+		vrLoc = 2917;
+	};
+	FE19E3931393F13300B36AA4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FE70A4C61379C6330045737E /* HTTPServer.m */;
+		name = "HTTPServer.m: 700";
+		rLen = 0;
+		rLoc = 22808;
+		rType = 0;
+		vrLen = 1624;
+		vrLoc = 20582;
+	};
+	FE1AB17E137DCCF00098A2C0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 8";
+		rLen = 0;
+		rLoc = 124;
+		rType = 0;
+		vrLen = 246;
+		vrLoc = 0;
+	};
+	FE3E6802137B0FA000E72999 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = FE9B458713786ED4000349E2 /* icon-big.icns */;
+	};
+	FE3E6803137B0FA000E72999 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = FE3E67FE137B0ECC00E72999 /* icon-big-white.icns */;
+	};
+	FE4780F6137F0DFE00D34DC7 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = FED2F2BF137EE4C900A114FF /* windowed.png */;
+	};
+	FE478131137F14E700D34DC7 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = FE3E69C2137B2A1200E72999 /* black.jpg */;
+	};
+	FE61108F14263ED70098393A /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = FE9B43D21378508A000349E2 /* icon.png */;
+	};
+	FE6110A8142640040098393A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D80F4B6AC300CF3369 /* AirmacAppDelegate.h */;
+		name = "AirmacAppDelegate.h: 49";
+		rLen = 0;
+		rLoc = 1105;
+		rType = 0;
+		vrLen = 1638;
+		vrLoc = 460;
+	};
+	FE6110C2142641640098393A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* AirmacAppDelegate.m */;
+		name = "AirmacAppDelegate.m: 178";
+		rLen = 5;
+		rLoc = 4935;
+		rType = 0;
+		vrLen = 1276;
+		vrLoc = 4745;
+	};
+	FE6110C3142641640098393A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 089C165DFE840E0CC02AAC07 /* English */;
+		name = "InfoPlist.strings: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 45;
+		vrLoc = 0;
+	};
+	FE6110C4142641640098393A /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Airmac-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			LSMinimumSystemVersion,
+		);
+		name = "/Users/ArendJan/Desktop/Airmac/Airmac-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	FE6110C5142641640098393A /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Airmac-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			LSMinimumSystemVersion,
+		);
+		name = "/Users/ArendJan/Desktop/Airmac/Airmac-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	FE70A4C51379C6330045737E /* HTTPServer.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1268, 2548}}";
+			sepNavSelRange = "{3872, 0}";
+			sepNavVisRange = "{3432, 702}";
+		};
+	};
+	FE70A4C61379C6330045737E /* HTTPServer.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1573, 9477}}";
+			sepNavSelRange = "{22808, 0}";
+			sepNavVisRange = "{20582, 1624}";
+		};
+	};
+	FE70A4C71379C6330045737E /* TCPServer.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1188, 1287}}";
+			sepNavSelRange = "{2618, 165}";
+			sepNavVisRange = "{2577, 1315}";
+		};
+	};
+	FE70A4C81379C6330045737E /* TCPServer.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1209, 3198}}";
+			sepNavSelRange = "{9320, 34}";
+			sepNavVisRange = "{8088, 1990}";
+		};
+	};
+	FE9B43E713785341000349E2 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = FE9B43E513785306000349E2 /* Notstarted.PNG */;
+	};
+	FE9B43E813785341000349E2 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = FE9B43E313785201000349E2 /* Started.PNG */;
+	};
+	FEBE49931376C5AE005081C0 /* Airplayer2 */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Airplayer2;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	FEBE499D1376C5BF005081C0 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	FEBE499E1376C5BF005081C0 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	FEC82B4913786FBA0068E945 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3F00F4B6AF500CF3369 /* Airmac_Prefix.pch */;
+		name = "Airmac_Prefix.pch: 8";
+		rLen = 0;
+		rLoc = 143;
+		rType = 0;
+		vrLen = 143;
+		vrLoc = 0;
+	};
+}

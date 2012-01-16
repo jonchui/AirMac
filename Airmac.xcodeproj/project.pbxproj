@@ -1,0 +1,357 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		256AC3DA0F4B6AC300CF3369 /* AirmacAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* AirmacAppDelegate.m */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		FE3E67FF137B0ECC00E72999 /* icon-big-white.icns in Resources */ = {isa = PBXBuildFile; fileRef = FE3E67FE137B0ECC00E72999 /* icon-big-white.icns */; };
+		FE3E69C3137B2A1200E72999 /* black.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE3E69C2137B2A1200E72999 /* black.jpg */; };
+		FE70A4901379C4420045737E /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE70A48F1379C4420045737E /* AppKit.framework */; };
+		FE70A4981379C4530045737E /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE70A4971379C4530045737E /* Quartz.framework */; };
+		FE70A49A1379C4530045737E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE70A4991379C4530045737E /* QuartzCore.framework */; };
+		FE70A4C91379C6330045737E /* HTTPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = FE70A4C61379C6330045737E /* HTTPServer.m */; };
+		FE70A4CA1379C6330045737E /* TCPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = FE70A4C81379C6330045737E /* TCPServer.m */; };
+		FE9B43D31378508A000349E2 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FE9B43D21378508A000349E2 /* icon.png */; };
+		FE9B43E413785201000349E2 /* Started.PNG in Resources */ = {isa = PBXBuildFile; fileRef = FE9B43E313785201000349E2 /* Started.PNG */; };
+		FE9B43E613785306000349E2 /* Notstarted.PNG in Resources */ = {isa = PBXBuildFile; fileRef = FE9B43E513785306000349E2 /* Notstarted.PNG */; };
+		FE9B457113786BCD000349E2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE9B457013786BCD000349E2 /* SystemConfiguration.framework */; };
+		FE9B458813786ED4000349E2 /* icon-big.icns in Resources */ = {isa = PBXBuildFile; fileRef = FE9B458713786ED4000349E2 /* icon-big.icns */; };
+		FEBE4CCC13771515005081C0 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEBE4CCB13771515005081C0 /* QTKit.framework */; };
+		FED2F2C0137EE4C900A114FF /* fullscreen.png in Resources */ = {isa = PBXBuildFile; fileRef = FED2F2BE137EE4C900A114FF /* fullscreen.png */; };
+		FED2F2C1137EE4C900A114FF /* windowed.png in Resources */ = {isa = PBXBuildFile; fileRef = FED2F2BF137EE4C900A114FF /* windowed.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		256AC3D80F4B6AC300CF3369 /* AirmacAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AirmacAppDelegate.h; sourceTree = "<group>"; };
+		256AC3D90F4B6AC300CF3369 /* AirmacAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AirmacAppDelegate.m; sourceTree = "<group>"; };
+		256AC3F00F4B6AF500CF3369 /* Airmac_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Airmac_Prefix.pch; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		8D1107310486CEB800E47090 /* Airmac-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Airmac-Info.plist"; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* Airmac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Airmac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE3E67FE137B0ECC00E72999 /* icon-big-white.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "icon-big-white.icns"; sourceTree = "<group>"; };
+		FE3E69C2137B2A1200E72999 /* black.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = black.jpg; sourceTree = "<group>"; };
+		FE70A48F1379C4420045737E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		FE70A4971379C4530045737E /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+		FE70A4991379C4530045737E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FE70A4C51379C6330045737E /* HTTPServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPServer.h; sourceTree = "<group>"; };
+		FE70A4C61379C6330045737E /* HTTPServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPServer.m; sourceTree = "<group>"; };
+		FE70A4C71379C6330045737E /* TCPServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCPServer.h; sourceTree = "<group>"; };
+		FE70A4C81379C6330045737E /* TCPServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCPServer.m; sourceTree = "<group>"; };
+		FE9B43D21378508A000349E2 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		FE9B43E313785201000349E2 /* Started.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Started.PNG; sourceTree = "<group>"; };
+		FE9B43E513785306000349E2 /* Notstarted.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Notstarted.PNG; sourceTree = "<group>"; };
+		FE9B457013786BCD000349E2 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		FE9B458713786ED4000349E2 /* icon-big.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "icon-big.icns"; sourceTree = "<group>"; };
+		FEBE4CC7137714DD005081C0 /* QuickTime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickTime.framework; path = System/Library/Frameworks/QuickTime.framework; sourceTree = SDKROOT; };
+		FEBE4CCB13771515005081C0 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = System/Library/Frameworks/QTKit.framework; sourceTree = SDKROOT; };
+		FED2F2BE137EE4C900A114FF /* fullscreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fullscreen.png; sourceTree = "<group>"; };
+		FED2F2BF137EE4C900A114FF /* windowed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = windowed.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				FEBE4CCC13771515005081C0 /* QTKit.framework in Frameworks */,
+				FE9B457113786BCD000349E2 /* SystemConfiguration.framework in Frameworks */,
+				FE70A4901379C4420045737E /* AppKit.framework in Frameworks */,
+				FE70A4981379C4530045737E /* Quartz.framework in Frameworks */,
+				FE70A49A1379C4530045737E /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FE70A4C71379C6330045737E /* TCPServer.h */,
+				FE70A4C81379C6330045737E /* TCPServer.m */,
+				FE70A4C51379C6330045737E /* HTTPServer.h */,
+				FE70A4C61379C6330045737E /* HTTPServer.m */,
+				256AC3D80F4B6AC300CF3369 /* AirmacAppDelegate.h */,
+				256AC3D90F4B6AC300CF3369 /* AirmacAppDelegate.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* Airmac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Airmac */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				FEBE4CC7137714DD005081C0 /* QuickTime.framework */,
+				FEBE4CCB13771515005081C0 /* QTKit.framework */,
+				FE9B457013786BCD000349E2 /* SystemConfiguration.framework */,
+				FE70A48F1379C4420045737E /* AppKit.framework */,
+				FE70A4971379C4530045737E /* Quartz.framework */,
+				FE70A4991379C4530045737E /* QuartzCore.framework */,
+			);
+			name = Airmac;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				256AC3F00F4B6AF500CF3369 /* Airmac_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FED2F2BE137EE4C900A114FF /* fullscreen.png */,
+				FED2F2BF137EE4C900A114FF /* windowed.png */,
+				FE3E69C2137B2A1200E72999 /* black.jpg */,
+				FE9B458713786ED4000349E2 /* icon-big.icns */,
+				FE3E67FE137B0ECC00E72999 /* icon-big-white.icns */,
+				FE9B43E513785306000349E2 /* Notstarted.PNG */,
+				FE9B43E313785201000349E2 /* Started.PNG */,
+				FE9B43D21378508A000349E2 /* icon.png */,
+				8D1107310486CEB800E47090 /* Airmac-Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* Airmac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Airmac" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Airmac;
+			productInstallPath = "$(HOME)/Applications";
+			productName = Airmac;
+			productReference = 8D1107320486CEB800E47090 /* Airmac.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Airmac" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Airmac */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* Airmac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				FE9B43D31378508A000349E2 /* icon.png in Resources */,
+				FE9B43E413785201000349E2 /* Started.PNG in Resources */,
+				FE9B43E613785306000349E2 /* Notstarted.PNG in Resources */,
+				FE9B458813786ED4000349E2 /* icon-big.icns in Resources */,
+				FE3E67FF137B0ECC00E72999 /* icon-big-white.icns in Resources */,
+				FE3E69C3137B2A1200E72999 /* black.jpg in Resources */,
+				FED2F2C0137EE4C900A114FF /* fullscreen.png in Resources */,
+				FED2F2C1137EE4C900A114FF /* windowed.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				256AC3DA0F4B6AC300CF3369 /* AirmacAppDelegate.m in Sources */,
+				FE70A4C91379C6330045737E /* HTTPServer.m in Sources */,
+				FE70A4CA1379C6330045737E /* TCPServer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Airmac_Prefix.pch;
+				INFOPLIST_FILE = "Airmac-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = Airmac;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Airmac_Prefix.pch;
+				INFOPLIST_FILE = "Airmac-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = Airmac;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Airmac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Airmac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
