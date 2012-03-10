@@ -46,20 +46,12 @@
 
 #import "TCPServer.h"
 
-@protocol AirplayDelegate;
-
-@protocol AirplayDelegate <NSObject>
-@optional
-@end
-
-
 @class HTTPConnection, HTTPServerRequest;
 
 @interface HTTPServer : TCPServer {
 @private
     Class connClass;
     NSURL *docRoot;
-	id <AirplayDelegate> airplaydelegate;
 
 }
 
@@ -67,10 +59,6 @@
 - (void)setConnectionClass:(Class)value;
 // used to configure the subclass of HTTPConnection to create when  
 // a new connection comes in; by default, this is HTTPConnection
-
-- (id)airplaydelegate;
-- (void)setAirplayDelegate:(id)value;
-
 @end
 
 @interface HTTPServer (HTTPServerDelegateMethods)
@@ -100,8 +88,6 @@
 	
 	BOOL hasReversed;
 }
-
-@property (nonatomic, assign) id <AirplayDelegate> airplaydelegate;
 
 - (id)initWithPeerAddress:(NSData *)addr inputStream:(NSInputStream *)istr outputStream:(NSOutputStream *)ostr forServer:(HTTPServer *)serv;
 

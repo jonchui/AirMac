@@ -52,7 +52,6 @@
 	NSString *name = NSMakeCollectable(SCDynamicStoreCopyComputerName(NULL, NULL));
 	
     [server setName:[NSString stringWithFormat:@"%@ - Airmac",name]]; // Naam
-	[server setAirplayDelegate:self];
 	[server setDelegate:self];
 	
 	[self startServer];

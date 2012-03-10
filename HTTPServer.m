@@ -38,21 +38,10 @@
     // and would just be "owning" the connections for form.
 }
 
-- (id)airplaydelegate {
-    return airplaydelegate;
-}
-
-- (void)setAirplayDelegate:(id)value {
-    airplaydelegate = value;
-}
-
-
 @end
 
 
 @implementation HTTPConnection
-
-@synthesize airplaydelegate;
 
 - (id)init {
     [self dealloc];
