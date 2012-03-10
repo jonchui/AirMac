@@ -33,7 +33,7 @@
 	[myStatusItem setHighlightMode:YES];
 	[myStatusItem setMenu:myStatusMenu];
 
-	// We switchen steeds van view zodat we animaties kunnen doen
+	// Switching between 2 views allows animation between the slides/photo's.
 	CurrentImageView = 1;
 
 	CAAnimation *anim = [CABasicAnimation animation];
@@ -44,14 +44,14 @@
 	
 	[self setImageWindowHoverActions];
 	
-	// Server starten
+	// Starting server
 	server = [[HTTPServer alloc] init];
-    [server setType:@"_airplay._tcp."]; // Registreren van airplay service
-	[server setPort:7000]; // Maakt geen reet uit
+    [server setType:@"_airplay._tcp."]; // Register the airplay service
+	[server setPort:7000]; // port 7000 is not required, any port will do.
 	
 	NSString *name = NSMakeCollectable(SCDynamicStoreCopyComputerName(NULL, NULL));
 	
-    [server setName:[NSString stringWithFormat:@"%@ - Airmac",name]]; // Naam
+    [server setName:[NSString stringWithFormat:@"%@ - Airmac",name]]; // Using "[Computername] - Airmac" as name.
 	[server setDelegate:self];
 	
 	[self startServer];
@@ -218,17 +218,11 @@
 }
 
 
-// Airplay interaction with Quicktime
+#pragma mark Interaction with Quicktime
 - (void)videoSent:(NSString*)url startPosition:(float)start{
-	
-/*	[videoWindow makeKeyAndOrderFront:nil];
-	[moviePlayer setMovie:[QTMovie movieWithURL:[NSURL URLWithString:url] error:nil]];
-	[moviePlayer setDelegate:self]; */
-	
 	NSString *_fullscreenScript = @"";
 	if (videoFullscreen)
 	{
-//			_fullscreenScript = @"tell application \"System Events\" to keystroke \"f\" using command down\n";
 			_fullscreenScript = @"delay 0.5 \n \
 									set presenting of document 1 to true \n";
 	}
@@ -297,7 +291,7 @@
 	float finalPosition;
 	if ([aDescriptor stringValue])
 	{	
-		finalPosition = (float)[aDescriptor int32Value]; // iPod trekt er altijd 1 seconde vanaf
+		finalPosition = (float)[aDescriptor int32Value]; // iPod will substract 1 second
 	}
 	else {
 		finalPosition = 0;
@@ -351,7 +345,7 @@
 	[[imageWindow contentView] exitFullScreenModeWithOptions:fullScreenOptions];
 
 
-	// Quicktime killen
+	// Close the Quicktime player
 	NSString *script = [NSString stringWithFormat:@"tell application \"QuickTime Player\"\n\
 						close document 1\n \
 						end tell"];
@@ -365,7 +359,7 @@
 
 	
 }
-// Image gedeelte
+#pragma mark Image slideshow
 -(void)enterimageSlideshowfullscreen
 {
 	
@@ -408,8 +402,7 @@
 	else {
 
 		[self exitimageSlideshowfullscreen];
-		
-//		windowedModeLocation = CGPointMake([imageWindow frame].origin.x, [imageWindow frame].origin.y);
+
 	}
 	imageFullscreen = !imageFullscreen;
 
@@ -417,11 +410,10 @@
 }
 
 
-// Image slideshow!
 - (void)photoSent:(NSData*)photoData
 {
 	
-	// We wisselen steeds van imageview, zodat we dat mooi kunnen animeren
+	// Switch between imageviews for animated transitions
 	NSImage *img = [[NSImage alloc] initWithData:photoData];
 	NSBitmapImageRep *rep = [[img representations] objectAtIndex: 0];
 	
@@ -439,11 +431,6 @@
 		[imageView1 setImage:img];
 	}
 
-	
-//	NSRect screenRect = [mainScreen visibleFrame];
-//	CGFloat xPos = (screenRect.size.width/2) - ([rep pixelsWide]/2);
-//	CGFloat yPos = (screenRect.size.height/2) + ([rep pixelsHigh]/2)+10+25; // Voor bovenbalk en menubalk
-	
 	CGFloat xPos = [imageWindow frame].origin.x;
 	CGFloat yPos = [imageWindow frame].origin.y;
 	
@@ -468,7 +455,8 @@
 	[img release];
 }
 
-// Voor de mouseover van de imageslideshow, wat de controls laat zien
+#pragma mark Show controls on mouseover
+
 - (void)setImageWindowHoverActions
 {
 	[[imageWindow contentView] updateTrackingAreas];
@@ -505,7 +493,7 @@
 {
 	
 
-	// Word iedere seconde uitgevoerd
+	// Gets executed every second
 	
 	if (hideCounter > 0)
 	{
