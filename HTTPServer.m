@@ -655,15 +655,11 @@
 			NSLog(@"Headers : %@",Response);
 			NSLog(@"Content : %@",bodyString);
 			
-			NSLog(@"We kunnen helaas nog geen slideshows afspelen, dus laten we code gewoon doorgaan zo.");
-			
-			
+			NSLog(@"Slideshows not yet supported, doing nothing...");
 		}
-		
-		
     }
 	
-	NSLog(@"Gewoon ok als we t niet weten :)");
+	NSLog(@"Always send 200 OK response, even if we did nothing :)");
 	CFHTTPMessageRef response = CFHTTPMessageCreateResponse(kCFAllocatorDefault, 200, NULL, kCFHTTPVersion1_1); // OK
 	[mess setResponse:response];
 	CFRelease(response);

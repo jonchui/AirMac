@@ -130,7 +130,7 @@
     } else {
 		_serverIsStarted = TRUE;
 		[self toggleServerStatusMenuItem:YES];
-        NSLog(@"Server gestart op poort %d", [server port]);
+        NSLog(@"Server started (port: %d)", [server port]);
     }
 	
 }
