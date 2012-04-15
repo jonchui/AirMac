@@ -10,7 +10,7 @@
 #import "HTTPServer.h"
 #import <QTKit/QTKit.h>
 
-@interface AirmacAppDelegate : NSObject <NSApplicationDelegate,AirplayDelegate,NSWindowDelegate> {
+@interface AirmacAppDelegate : NSObject <NSApplicationDelegate,NSWindowDelegate> {
     NSPanel *aboutWindow;
 	
 	// Image slideshow

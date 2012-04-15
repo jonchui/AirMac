@@ -38,21 +38,10 @@
     // and would just be "owning" the connections for form.
 }
 
-- (id)airplaydelegate {
-    return airplaydelegate;
-}
-
-- (void)setAirplayDelegate:(id)value {
-    airplaydelegate = value;
-}
-
-
 @end
 
 
 @implementation HTTPConnection
-
-@synthesize airplaydelegate;
 
 - (id)init {
     [self dealloc];
@@ -283,7 +272,7 @@
 		case NSStreamEventHasBytesAvailable:;
 			uint8_t buf[16 * 1024];
 			uint8_t *buffer = NULL;
-			unsigned int len = 0;
+			NSUInteger len = 0;
 			if (![istream getBuffer:&buffer length:&len]) {
 				int amount = [istream read:buf maxLength:sizeof(buf)];
 				buffer = buf;
@@ -666,15 +655,11 @@
 			NSLog(@"Headers : %@",Response);
 			NSLog(@"Content : %@",bodyString);
 			
-			NSLog(@"We kunnen helaas nog geen slideshows afspelen, dus laten we code gewoon doorgaan zo.");
-			
-			
+			NSLog(@"Slideshows not yet supported, doing nothing...");
 		}
-		
-		
     }
 	
-	NSLog(@"Gewoon ok als we t niet weten :)");
+	NSLog(@"Always send 200 OK response, even if we did nothing :)");
 	CFHTTPMessageRef response = CFHTTPMessageCreateResponse(kCFAllocatorDefault, 200, NULL, kCFHTTPVersion1_1); // OK
 	[mess setResponse:response];
 	CFRelease(response);
